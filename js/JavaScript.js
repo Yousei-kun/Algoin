@@ -50,7 +50,7 @@ login_ready_button.addEventListener('click', function(event) {
     let username_input = document.forms['form-login']['username'].value;
     let password_input = document.forms['form-login']['password'].value;
     event.preventDefault();
-    if (username_input == "jessicamaya" && password_input == "raras") {
+    if (username_input == "jessicamaya" && password_input == "jeje") {
         login_verdict.style.backgroundColor = "#c6e686";
         login_verdict.style.borderColor = "#446418";
         login_verdict.classList.add('show');
